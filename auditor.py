@@ -122,7 +122,7 @@ st.title("🔍 Auditor de Sesgos en la Investigación")
 st.markdown("Evalúa tu proyecto o investigación para detectar posibles sesgos androcéntricos o sexistas.")
 
 # 1. Apartado de Información (Estilo acordeón / Expander)
-with st.expander("📚 ¿Qué es el Análisis de Género y cuáles son los sesgos comunes?"):
+with st.expander("🗣 ¿Qué es el Análisis de Género y cuáles son los sesgos comunes?"):
     st.markdown("""
     **Análisis Integral de las Herramientas para el Análisis de Género en el Desarrollo Social**
     
@@ -169,43 +169,43 @@ if submitted:
     
     if q1 == "Sí":
         st.error("**Ginopía (o Androcentrismo por omisión)**")
-        st.write("📌 *Problema:* Tu investigación padece de la discapacidad de percibir a las mujeres al omitirlas de los datos.")
+        st.write("❗️ *Problema:* Tu investigación padece de la discapacidad de percibir a las mujeres al omitirlas de los datos.")
         st.success("💡 **Recomendación:** Utiliza la herramienta de **Datos Desagregados**. Asegúrate de que todas tus encuestas, censos y métricas recojan y reporten la variable sexo/género por separado.")
         sesgos_detectados += 1
         
     if q2 == "Sí":
         st.error("**Sobregeneralización**")
-        st.write("📌 *Problema:* Estás asumiendo que la experiencia (generalmente masculina) explica los fenómenos del conjunto de la sociedad.")
+        st.write("❗️ *Problema:* Estás asumiendo que la experiencia (generalmente masculina) explica los fenómenos del conjunto de la sociedad.")
         st.success("💡 **Recomendación:** Delimita claramente el alcance de tu estudio. Si tu muestra es mayoritariamente de un sexo, acláralo en tus conclusiones y no extrapoles los resultados.")
         sesgos_detectados += 1
         
     if q3 == "Sí":
         st.error("**Insensibilidad de Género**")
-        st.write("📌 *Problema:* Estás pasando por alto cómo un mismo contexto puede tener implicaciones muy distintas para mujeres y hombres.")
+        st.write("❗️ *Problema:* Estás pasando por alto cómo un mismo contexto puede tener implicaciones muy distintas para mujeres y hombres.")
         st.success("💡 **Recomendación:** Aplica el **Marco de Harvard**. Analiza detalladamente el contexto: ¿Quién tiene acceso a los recursos del proyecto? ¿Quién toma las decisiones? Considera el género como variable cruzada desde el diseño inicial.")
         sesgos_detectados += 1
         
     if q4 == "Sí":
         st.error("**Familismo**")
-        st.write("📌 *Problema:* Partes de la ficción de que el hogar se comporta como una unidad, ignorando las asimetrías de poder y recursos internas.")
+        st.write("❗️ *Problema:* Partes de la ficción de que el hogar se comporta como una unidad, ignorando las asimetrías de poder y recursos internas.")
         st.success("💡 **Recomendación:** Cambia tu unidad de análisis. En lugar de encuestar al 'jefe de familia', recopila información de los individuos dentro del hogar para notar diferencias en consumo y tiempo.")
         sesgos_detectados += 1
         
     if q5 == "Sí":
         st.error("**Doble Rasero**")
-        st.write("📌 *Problema:* Existe un trato metodológico discriminatorio e inequitativo en los criterios de evaluación.")
+        st.write("❗️ *Problema:* Existe un trato metodológico discriminatorio e inequitativo en los criterios de evaluación.")
         st.success("💡 **Recomendación:** Estandariza tus métricas. Verifica que las preguntas, pruebas de usabilidad o criterios de éxito de tu proyecto apliquen exactamente igual sin importar el sexo del usuario.")
         sesgos_detectados += 1
         
     if q6 == "Sí":
         st.error("**«Propio de su sexo»**")
-        st.write("📌 *Problema:* Aceptas acríticamente que ciertos roles son inherentes a un sexo sin plantearlo como una pregunta de investigación.")
+        st.write("❗️ *Problema:* Aceptas acríticamente que ciertos roles son inherentes a un sexo sin plantearlo como una pregunta de investigación.")
         st.success("💡 **Recomendación:** Usa el **Marco de Moser** y la herramienta del **Reloj de 24 horas**. Reconoce la triple jornada y cuestiona si tu proyecto está asumiendo que las mujeres tendrán tiempo libre sin considerar sus labores de cuidado.")
         sesgos_detectados += 1
         
     if q7 == "Sí":
         st.error("**Dicotomía Sexual**")
-        st.write("📌 *Problema:* Tratas a los sexos como categorías opuestas segregadas, exagerando las diferencias y minimizando las similitudes.")
+        st.write("❗️ *Problema:* Tratas a los sexos como categorías opuestas segregadas, exagerando las diferencias y minimizando las similitudes.")
         st.success("💡 **Recomendación:** Evita el determinismo biológico. Analiza los atributos humanos como un espectro y asegúrate de que tu interfaz, algoritmo o estudio no fuerce a los usuarios a encajar en estereotipos rígidos.")
         sesgos_detectados += 1
 
