@@ -122,19 +122,24 @@ st.title("🔍 Auditor de Sesgos en la Investigación")
 st.markdown("Evalúa tu proyecto o investigación para detectar posibles sesgos androcéntricos o sexistas.")
 
 # 1. Apartado de Información (Estilo acordeón / Expander)
-with st.expander("📚 ¿Qué es el Análisis de Género y sus herramientas?"):
+with st.expander("📚 ¿Qué es el Análisis de Género y cuáles son los sesgos comunes?"):
     st.markdown("""
     **Análisis Integral de las Herramientas para el Análisis de Género en el Desarrollo Social**
     
     El análisis de género no es solo revisar datos sobre mujeres y hombres; es un proceso relacional para desentrañar estructuras de poder. Permite ver "lo invisible" en proyectos que se asumen neutrales.
     
-    **Marcos Metodológicos Principales:**
-    * **Marco de Harvard (Matriz de Análisis de Género):** Recolecta datos observables sobre la división del trabajo (quién hace qué) y el acceso/control de recursos (quién posee qué).
-    * **Marco de Moser:** Distingue la triple jornada de las mujeres (reproductiva, productiva y gestión comunitaria) y diferencia entre *necesidades prácticas* (agua, salud) e *intereses estratégicos* (derechos legales, poder).
+    ---
     
-    **Herramientas Prácticas:**
-    * **Reloj de 24 horas:** Registra actividades hora por hora, revelando el "tiempo de pobreza" de las mujeres por las tareas de cuidado.
-    * **Datos Desagregados:** Separar los datos estadísticos por sexo para entender realidades diferenciadas (ej. desempleo masculino vs. trabajo doméstico no remunerado femenino).
+    **Los 7 Sesgos Sexistas en la Investigación:**
+    
+    * **Ginopía (Invisibilidad de las mujeres):** Se produce cuando las mujeres son directamente omitidas en la investigación[cite: 195]. Cualquier indicador social incurre en ginopía si no está desagregado en función del sexo. Es una variante del androcentrismo, donde se reconstruye la realidad desde una perspectiva masculina ignorando o minusvalorando las experiencias de las mujeres.
+    * **Sobregeneralización:** Se presenta cuando se realizan investigaciones tomando como referencia a un sexo (usualmente el masculino) y se generalizan sus resultados como si fueran aplicables a ambos sexos.
+    * **Insensibilidad de género:** Consiste en ignorar que el sexo y/o el género es una variable socialmente relevante en las investigaciones. Esto lleva a la descontextualización, al no reconocer que una misma situación puede tener significados e implicaciones distintas para mujeres y hombres.
+    * **Familismo:** Es una manifestación exacerbada de insensibilidad de género[cite: 269]. Consiste en tratar a la familia o al hogar como una unidad de análisis, presuponiendo que a todos sus integrantes les afectan del mismo modo los eventos estudiados e ignorando las diferencias y posiciones de poder intrafamiliares.
+    * **Doble rasero:** Se produce al analizar, tratar, medir o evaluar conductas o situaciones idénticas para ambos sexos con criterios diferentes.
+    * **«Propio de su sexo»:** Consiste en naturalizar, o dar por sentado, que hay cosas, acciones y/o actitudes más apropiadas para un sexo que para otro. Una forma común es asumir la tradicional división sexual del trabajo (como delegar el cuidado del hogar exclusivamente a las mujeres) como algo no problemático.
+    * **Dicotomía sexual:** Consiste en tratar a los dos sexos como categorías separadas y segregadas, sobreexagerando las diferencias de género en lugar de considerar que existen muchas características coincidentes. Se da cuando un atributo humano se identifica en exclusiva con uno u otro sexo (por ejemplo, asociar liderazgo solo a hombres y sensibilidad solo a mujeres).
+    
     """)
 
 st.divider()
