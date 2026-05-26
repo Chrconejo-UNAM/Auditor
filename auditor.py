@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # Configuración básica de la página
-st.set_page_config(page_title="Auditor de Sesgos de Género", page_icon="🔍", layout="centered")
+st.set_page_config(page_title="Auditor de Sesgos de Género", layout="centered")
 try:
     icono_poc = Image.open("poc.png")
 except:
