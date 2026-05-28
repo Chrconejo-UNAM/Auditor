@@ -227,7 +227,7 @@ footer_html = """
     </p>
     <p style="font-size: 13px; margin-top: 15px; color: rgba(255, 255, 255, 0.7);">
         Proyecto Final - Herramientas para el análisis de Género<br>
-        Licenciatura en Tecnología y Ciencias de la tierra| ENES Juriquilla, UNAM
+        Licenciatura en Tecnología y Ciencias de la tierra | ENES Juriquilla, UNAM
     </p>
 </div>
 """
